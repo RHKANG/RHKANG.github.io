@@ -74,6 +74,60 @@
       <div class="outer">
         <section id="main">
   
+    <article id="post-latex" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2018/05/12/latex/" class="article-date">
+  <time datetime="2018-05-12T00:04:43.000Z" itemprop="datePublished">2018-05-12</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/IT/">IT</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2018/05/12/latex/">Latex Template</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <ul>
+<li><p>Template</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br></pre></td><td class="code"><pre><span class="line">\documentclass[12pt]&#123;article&#125;</span><br><span class="line">\usepackage[utf8]&#123;inputenc&#125;</span><br><span class="line">\usepackage&#123;setspace&#125;</span><br><span class="line">\usepackage&#123;fullpage&#125;</span><br><span class="line">\usepackage&#123;fancyvrb&#125;</span><br><span class="line">\usepackage&#123;amssymb&#125;</span><br><span class="line">\usepackage&#123;mathtools&#125;</span><br><span class="line">\DeclarePairedDelimiter\ceil&#123;\lceil&#125;&#123;\rceil&#125;</span><br><span class="line">\DeclarePairedDelimiter\floor&#123;\lfloor&#125;&#123;\rfloor&#125;</span><br><span class="line"></span><br><span class="line">\usepackage[T1]&#123;fontenc&#125;</span><br><span class="line">\usepackage&#123;CJKutf8&#125;</span><br><span class="line">\usepackage[english]&#123;babel&#125;</span><br><span class="line"></span><br><span class="line">\def\title&#123; # title here &#125;</span><br><span class="line">\def\author&#123; # name here &#125;</span><br><span class="line">\def\date&#123; # May 2018 &#125;</span><br><span class="line"></span><br><span class="line">\begin&#123;document&#125;</span><br><span class="line"></span><br><span class="line">\setstretch&#123;1.2&#125;</span><br><span class="line"></span><br><span class="line">\fbox&#123;</span><br><span class="line">    \parbox&#123;0.9\textwidth&#125;&#123;</span><br><span class="line">        \textbf&#123; # MC6202: CPS &#125;</span><br><span class="line">        \begin&#123;center&#125;</span><br><span class="line">            \LARGE&#123;\title&#125;</span><br><span class="line">        \end&#123;center&#125;</span><br><span class="line">        \author \hfill \date</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">\end&#123;document&#125;</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>한글 사용</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">\item \begin&#123;CJK&#125;&#123;UTF8&#125;&#123;mj&#125; 내용은 여기 \end&#123;CJK&#125;</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>Code block</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">\begin&#123;Verbatim&#125;[frame=single]</span><br><span class="line">def solve(A, B):</span><br><span class="line">    N, M = len(A), len(B)</span><br><span class="line">    pivot = 0</span><br><span class="line">    for (i : 0 to N-1):</span><br><span class="line">        if (B[pivot] == A[i]):</span><br><span class="line">            pivot += 1</span><br><span class="line">            if (pivot == M):</span><br><span class="line">                return True</span><br><span class="line">    return False</span><br><span class="line">\end&#123;Verbatim&#125;</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="/2018/05/12/latex/" data-id="cjh2mzknf0007zgv1jvse3g55" class="article-share-link">Share</a>
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Latex/">Latex</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
     <article id="post-basic-data-structure" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/2018/05/11/basic-data-structure/" class="article-date">
@@ -113,7 +167,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="/2018/05/11/basic-data-structure/" data-id="cjh1xt3850004ykv1546nv03c" class="article-share-link">Share</a>
+      <a data-url="/2018/05/11/basic-data-structure/" data-id="cjh2mzknh0008zgv1ls07l8hf" class="article-share-link">Share</a>
       
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Algorithm/">Algorithm</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Data-Structure/">Data Structure</a></li></ul>
@@ -159,7 +213,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="/2018/05/10/2018-05-10-1/" data-id="cjh1xt37y0001ykv1z3jav5n7" class="article-share-link">Share</a>
+      <a data-url="/2018/05/10/2018-05-10-1/" data-id="cjh2mzkn50003zgv1666iy9k8" class="article-share-link">Share</a>
       
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Festival/">Festival</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/KSA/">KSA</a></li></ul>
@@ -232,7 +286,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="/2018/05/09/2018-05-09-2/" data-id="cjh1xt37r0000ykv1ytlolm88" class="article-share-link">Share</a>
+      <a data-url="/2018/05/09/2018-05-09-2/" data-id="cjh2mzkn10002zgv13eb06o9a" class="article-share-link">Share</a>
       
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Hexo/">Hexo</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Markdown/">Markdown</a></li></ul>
@@ -255,7 +309,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">Categories</h3>
     <div class="widget">
-      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/IT/">IT</a><span class="category-list-count">2</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/IT/Algorithm/">Algorithm</a><span class="category-list-count">1</span></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/KSA/">KSA</a><span class="category-list-count">1</span></li></ul>
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/IT/">IT</a><span class="category-list-count">3</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/IT/Algorithm/">Algorithm</a><span class="category-list-count">1</span></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/KSA/">KSA</a><span class="category-list-count">1</span></li></ul>
     </div>
   </div>
 
@@ -265,7 +319,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">Archives</h3>
     <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/05/">May 2018</a><span class="archive-list-count">3</span></li></ul>
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/05/">May 2018</a><span class="archive-list-count">4</span></li></ul>
     </div>
   </div>
 
@@ -275,7 +329,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">Tag Cloud</h3>
     <div class="widget tagcloud">
-      <a href="/tags/Algorithm/" style="font-size: 10px;">Algorithm</a> <a href="/tags/Data-Structure/" style="font-size: 10px;">Data Structure</a> <a href="/tags/Festival/" style="font-size: 10px;">Festival</a> <a href="/tags/Hexo/" style="font-size: 10px;">Hexo</a> <a href="/tags/KSA/" style="font-size: 10px;">KSA</a> <a href="/tags/Markdown/" style="font-size: 10px;">Markdown</a>
+      <a href="/tags/Algorithm/" style="font-size: 10px;">Algorithm</a> <a href="/tags/Data-Structure/" style="font-size: 10px;">Data Structure</a> <a href="/tags/Festival/" style="font-size: 10px;">Festival</a> <a href="/tags/Hexo/" style="font-size: 10px;">Hexo</a> <a href="/tags/KSA/" style="font-size: 10px;">KSA</a> <a href="/tags/Latex/" style="font-size: 10px;">Latex</a> <a href="/tags/Markdown/" style="font-size: 10px;">Markdown</a>
     </div>
   </div>
 
