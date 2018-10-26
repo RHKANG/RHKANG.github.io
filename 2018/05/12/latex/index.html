@@ -20,7 +20,7 @@
 <meta property="og:description" content="Template 123456789101112131415161718192021222324252627282930313233343536373839404142434445\documentclass[12pt,fleqn]&amp;#123;article&amp;#125;\usepackage&amp;#123;kotex&amp;#125;  % 한글 사용\usepackage&amp;#123;setspace&amp;#">
 <meta property="og:locale" content="en">
 <meta property="og:image" content="https://rhkang.github.io/css/images/og-image.png">
-<meta property="og:updated_time" content="2018-10-26T01:55:16.307Z">
+<meta property="og:updated_time" content="2018-10-26T02:31:05.256Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Latex Guide">
 <meta name="twitter:description" content="Template 123456789101112131415161718192021222324252627282930313233343536373839404142434445\documentclass[12pt,fleqn]&amp;#123;article&amp;#125;\usepackage&amp;#123;kotex&amp;#125;  % 한글 사용\usepackage&amp;#123;setspace&amp;#">
@@ -107,11 +107,96 @@
 <li><p>Code 사용</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">\begin&#123;code&#125;</span><br><span class="line">    % Contents...</span><br><span class="line">\end&#123;code&#125;</span><br></pre></td></tr></table></figure>
 </li>
-<li><p>자주 쓰는 Symbols</p>
+<li><p>Symbols</p>
 </li>
 </ul>
-<p>\mathcal{} : $\mathcal{C}, \mathcal{R}, \mathcal{Q}, …$<br>\varphi : $\varphi$<br>\phi : $\phi$</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$\varphi$</span><br></pre></td></tr></table></figure>
+<table>
+<thead>
+<tr>
+<th>Symbols</th>
+<th>Syntax</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>$\mathcal{C}, \mathcal{R}, \mathcal{Q}, …$</td>
+<td>\mathcal{}</td>
+<td></td>
+</tr>
+<tr>
+<td>$\mathbf{R}, \mathbf{N}, \mathbf{P}, …$</td>
+<td>\mathbf{}</td>
+<td></td>
+</tr>
+<tr>
+<td>$\mathbb{N}, \mathbb{R}, \mathbb{Q}, …$</td>
+<td>\mathbb{}</td>
+<td></td>
+</tr>
+<tr>
+<td>$\phi, \varphi, \psi, \sigma, \aleph, \pi, \mu, …$</td>
+<td>\phi, \varphi, \psi, \sigma, \aleph, \pi, \mu, …</td>
+<td></td>
+</tr>
+<tr>
+<td>$\vdash, =, \geq, \leq, …$</td>
+<td>\vdash, =, \geq, \leq, …</td>
+<td></td>
+</tr>
+<tr>
+<td>$\neq, \nvdash, …$</td>
+<td>\neq, \nvdash, …</td>
+<td></td>
+</tr>
+<tr>
+<td>$\nleq, \nleqslant, \nleqq, \lneq, \lneqq, \lvertneqq, \lnsim, \lnapprox, …$</td>
+<td>\nleq, \nleqslant, \nleqq, \lneq, \lneqq, \lvertneqq, \lnsim, \lnapprox, …</td>
+<td></td>
+</tr>
+<tr>
+<td>$\leftarrow, \rightarrow, \uparrow, \downarrow, \Leftarrow, \Rightarrow, \Leftrightarrow$</td>
+<td>\leftarrow, \rightarrow, \uparrow, \downarrow, \Leftarrow, \Rightarrow, \Leftrightarrow</td>
+<td></td>
+</tr>
+<tr>
+<td>${\displaystyle \sum_{i\in I}{\textrm{something}}}$</td>
+<td>{\displaystyle \sum_{i\in I}{\textrm{something}}}</td>
+<td></td>
+</tr>
+<tr>
+<td>$\oplus, \odot, \otimes, \uplus, \cup, \cap$</td>
+<td>\oplus, \odot, \otimes, \uplus, \cup, \cap</td>
+<td></td>
+</tr>
+<tr>
+<td>$\bigoplus, \bigodot, \bigotimes, \biguplus, \prod, \sum, \bigcup, \bigcap, \int, \oint, \bigvee, \bigwedge$</td>
+<td>\bigoplus, \bigodot, \bigotimes, \biguplus, \prod, \sum, \bigcup, \bigcap, \int, \oint, \bigvee, \bigwedge</td>
+<td></td>
+</tr>
+<tr>
+<td>${ \; } \; _ \; \lfloor \; \rfloor \; \lceil \; \rceil \; \langle \; \rangle \; \</td>
+<td>\; \backslash …  $</td>
+<td>{ } _ \lfloor \rfloor \lceil \rceil \langle \rangle \</td>
+<td>\backslash …</td>
+<td></td>
+</tr>
+<tr>
+<td>$\hat{a}, \acute{a}, \bar{a}, \dot{a}, \vec{a}, \ddot{a}, \tilde{a}$</td>
+<td>\hat{a}, \acute{a}, \bar{a}, \dot{a}, \vec{a}, \ddot{a}, \tilde{a}</td>
+<td></td>
+</tr>
+<tr>
+<td>$\overline{abc}, \overrightarrow{pq}, \frac{a}{b}$</td>
+<td>\overline{abc}, \overrightarrow{pq}, \frac{a}{b}</td>
+<td></td>
+</tr>
+<tr>
+<td>$\blacksquare \; \therefore \; \because \; \bot$</td>
+<td>\blacksquare \; \therefore \; \because \; \bot</td>
+<td></td>
+</tr>
+</tbody>
+</table>
 
       
     </div>
