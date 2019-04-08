@@ -18,8 +18,8 @@
   
   <entry>
     <title>Java 이모저모</title>
-    <link href="/2019/03/04/2019-03-04-1/"/>
-    <id>/2019/03/04/2019-03-04-1/</id>
+    <link href="/2019/03/04/about-java/"/>
+    <id>/2019/03/04/about-java/</id>
     <published>2019-03-04T06:23:52.000Z</published>
     <updated>2019-03-04T07:07:28.659Z</updated>
     
@@ -45,8 +45,8 @@
   
   <entry>
     <title>C언어 이모저모</title>
-    <link href="/2019/03/03/2019-03-03-1/"/>
-    <id>/2019/03/03/2019-03-03-1/</id>
+    <link href="/2019/03/03/about-c/"/>
+    <id>/2019/03/03/about-c/</id>
     <published>2019-03-03T10:15:10.000Z</published>
     <updated>2019-03-04T07:07:23.503Z</updated>
     
@@ -72,10 +72,10 @@
   
   <entry>
     <title>Latex Guide</title>
-    <link href="/2018/05/12/2018-05-12-1/"/>
-    <id>/2018/05/12/2018-05-12-1/</id>
+    <link href="/2018/05/12/latex-guide/"/>
+    <id>/2018/05/12/latex-guide/</id>
     <published>2018-05-12T00:04:43.000Z</published>
-    <updated>2019-04-03T04:35:35.742Z</updated>
+    <updated>2019-04-08T06:13:04.578Z</updated>
     
     <content type="html"><![CDATA[<ul><li><p>Template</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br></pre></td><td class="code"><pre><span class="line">\documentclass[12pt,fleqn]&#123;article&#125;</span><br><span class="line">\usepackage&#123;kotex&#125;  % 한글 사용</span><br><span class="line">\usepackage&#123;setspace&#125;</span><br><span class="line">\usepackage&#123;fullpage&#125;</span><br><span class="line"></span><br><span class="line">\usepackage&#123;amssymb&#125;</span><br><span class="line">\usepackage&#123;amsmath&#125;</span><br><span class="line">\usepackage&#123;mathtools&#125;</span><br><span class="line">\usepackage[ruled, linesnumbered]&#123;algorithm2e&#125;</span><br><span class="line"></span><br><span class="line">\usepackage&#123;graphicx&#125;</span><br><span class="line">\usepackage&#123;subcaption&#125;</span><br><span class="line"></span><br><span class="line">\usepackage&#123;hyperref&#125;</span><br><span class="line">\hypersetup&#123;</span><br><span class="line">colorlinks=true,</span><br><span class="line">linkcolor=blue,</span><br><span class="line">filecolor=blue,</span><br><span class="line">urlcolor=blue,</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">\def\title&#123;\textbf&#123;TITLE HERE&#125;&#125;</span><br><span class="line">\def\author&#123;NAME HERE&#125;</span><br><span class="line">\def\date&#123;MAY 2018&#125;</span><br><span class="line"></span><br><span class="line">\input&#123;code&#125;</span><br><span class="line">\input&#123;macros&#125;</span><br><span class="line"></span><br><span class="line">\begin&#123;document&#125;</span><br><span class="line"></span><br><span class="line">\setstretch&#123;1.2&#125;</span><br><span class="line"></span><br><span class="line">\fbox&#123;</span><br><span class="line">\parbox&#123;0.9\textwidth&#125;&#123;</span><br><span class="line">        \textbf&#123;MC322: Discrete Mathematics&#125;</span><br><span class="line">        \begin&#123;center&#125;</span><br><span class="line">            \LARGE&#123;\title&#125;</span><br><span class="line">        \end&#123;center&#125;</span><br><span class="line">        \author \hfill \date</span><br><span class="line">   &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">\section&#123;&#125;</span><br><span class="line"></span><br><span class="line">\end&#123;document&#125;</span><br></pre></td></tr></table></figure></li><li><p>Code 사용</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">\begin&#123;code&#125;</span><br><span class="line">    % Contents...</span><br><span class="line">\end&#123;code&#125;</span><br></pre></td></tr></table></figure></li><li><p>Symbols</p></li></ul><table><thead><tr><th>Symbols</th><th>Syntax</th></tr></thead><tbody><tr><td>$\mathcal{C}, \mathcal{R}, \mathcal{Q}, …$</td><td>\mathcal{}</td><td></td></tr><tr><td>$\mathbf{R}, \mathbf{N}, \mathbf{P}, …$</td><td>\mathbf{}</td><td></td></tr><tr><td>$\mathbb{N}, \mathbb{R}, \mathbb{Q}, …$</td><td>\mathbb{}</td><td></td></tr><tr><td>$\phi, \varphi, \psi, \sigma, \aleph, \pi, \mu, …$</td><td>\phi, \varphi, \psi, \sigma, \aleph, \pi, \mu, …</td><td></td></tr><tr><td>$\vdash, =, \geq, \leq, …$</td><td>\vdash, =, \geq, \leq, …</td><td></td></tr><tr><td>$\neq, \nvdash, …$</td><td>\neq, \nvdash, …</td><td></td></tr><tr><td>$\nleq, \nleqslant, \nleqq, \lneq, \lneqq, \lvertneqq, \lnsim, \lnapprox, …$</td><td>\nleq, \nleqslant, \nleqq, \lneq, \lneqq, \lvertneqq, \lnsim, \lnapprox, …</td><td></td></tr><tr><td>$\leftarrow, \rightarrow, \uparrow, \downarrow, \Leftarrow, \Rightarrow, \Leftrightarrow$</td><td>\leftarrow, \rightarrow, \uparrow, \downarrow, \Leftarrow, \Rightarrow, \Leftrightarrow</td><td></td></tr><tr><td>${\displaystyle \sum_{i\in I}{\textrm{something}}}$</td><td>{\displaystyle \sum_{i\in I}{\textrm{something}}}</td><td></td></tr><tr><td>$\oplus, \odot, \otimes, \uplus, \cup, \cap$</td><td>\oplus, \odot, \otimes, \uplus, \cup, \cap</td><td></td></tr><tr><td>$\bigoplus, \bigodot, \bigotimes, \biguplus, \prod, \sum$</td><td>\bigoplus, \bigodot, \bigotimes, \biguplus, \prod, \sum</td><td></td></tr><tr><td>$\bigcup, \bigcap, \int, \oint, \bigvee, \bigwedge$</td><td>\bigcup, \bigcap, \int, \oint, \bigvee, \bigwedge</td><td></td></tr><tr><td>$\lfloor \; \rfloor \; \lceil \; \rceil \; \langle \; \rangle$</td><td>\lfloor \rfloor \lceil \rceil \langle \rangle</td><td></td></tr><tr><td>$\hat{a}, \acute{a}, \bar{a}, \dot{a}, \vec{a}, \ddot{a}, \tilde{a}$</td><td>\hat{a}, \acute{a}, \bar{a}, \dot{a}, \vec{a}, \ddot{a}, \tilde{a}</td><td></td></tr><tr><td>$\overline{abc}, \overrightarrow{pq}, \frac{a}{b}$</td><td>\overline{abc}, \overrightarrow{pq}, \frac{a}{b}</td><td></td></tr><tr><td>$\blacksquare \; \therefore \; \because \; \bot$</td><td>\blacksquare \; \therefore \; \because \; \bot</td><td></td></tr></tbody></table>]]></content>
     
@@ -99,8 +99,8 @@
   
   <entry>
     <title>범용 알고리즘 정리</title>
-    <link href="/2018/05/11/2018-05-11-1/"/>
-    <id>/2018/05/11/2018-05-11-1/</id>
+    <link href="/2018/05/11/basic-algorithms/"/>
+    <id>/2018/05/11/basic-algorithms/</id>
     <published>2018-05-11T11:47:33.000Z</published>
     <updated>2019-03-06T04:13:10.102Z</updated>
     
@@ -128,8 +128,8 @@
   
   <entry>
     <title>[Hexo] 자주 쓰는 커맨드 &amp; 알아두면 좋은 정보 모음(集)</title>
-    <link href="/2018/05/09/2018-05-09-2/"/>
-    <id>/2018/05/09/2018-05-09-2/</id>
+    <link href="/2018/05/09/hexo-information/"/>
+    <id>/2018/05/09/hexo-information/</id>
     <published>2018-05-09T04:09:20.000Z</published>
     <updated>2019-03-03T10:24:38.599Z</updated>
     
@@ -155,8 +155,8 @@
   
   <entry>
     <title>네트워크 통신에서의 데이터 무결성 검사</title>
-    <link href="/2018/05/08/2018-05-09-1/"/>
-    <id>/2018/05/08/2018-05-09-1/</id>
+    <link href="/2018/05/08/about-checksum/"/>
+    <id>/2018/05/08/about-checksum/</id>
     <published>2018-05-08T04:53:33.000Z</published>
     <updated>2018-10-26T01:53:06.721Z</updated>
     

@@ -102,13 +102,13 @@ ga('send', 'pageview');
     <article class="archive-article archive-type-post">
   <div class="archive-article-inner">
     <header class="archive-article-header">
-      <a href="/2018/05/12/2018-05-12-1/" class="archive-article-date">
+      <a href="/2018/05/12/latex-guide/" class="archive-article-date">
   <time datetime="2018-05-12T00:04:43.000Z" itemprop="datePublished">May 12</time>
 </a>
       
   
     <h1 itemprop="name">
-      <a class="archive-article-title" href="/2018/05/12/2018-05-12-1/">Latex Guide</a>
+      <a class="archive-article-title" href="/2018/05/12/latex-guide/">Latex Guide</a>
     </h1>
   
 
@@ -190,5 +190,20 @@ ga('send', 'pageview');
 
 
   </div>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 </body>
 </html>

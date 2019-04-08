@@ -8,15 +8,15 @@
     </url>
 
     <url>
-        <loc>2018/05/12/2018-05-12-1/</loc>
-        <lastmod>2019-04-03T04:35:35.742Z</lastmod>
+        <loc>2018/05/12/latex-guide/</loc>
+        <lastmod>2019-04-08T06:13:04.578Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
     </url>
 
     <url>
-        <loc>2018/05/11/2018-05-11-1/</loc>
+        <loc>2018/05/11/basic-algorithms/</loc>
         <lastmod>2019-03-06T04:13:10.102Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -24,7 +24,7 @@
     </url>
 
     <url>
-        <loc>2019/03/04/2019-03-04-1/</loc>
+        <loc>2019/03/04/about-java/</loc>
         <lastmod>2019-03-04T07:07:28.659Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -32,7 +32,7 @@
     </url>
 
     <url>
-        <loc>2019/03/03/2019-03-03-1/</loc>
+        <loc>2019/03/03/about-c/</loc>
         <lastmod>2019-03-04T07:07:23.503Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -40,7 +40,7 @@
     </url>
 
     <url>
-        <loc>2018/05/09/2018-05-09-2/</loc>
+        <loc>2018/05/09/hexo-information/</loc>
         <lastmod>2019-03-03T10:24:38.599Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -48,7 +48,7 @@
     </url>
 
     <url>
-        <loc>2018/05/08/2018-05-09-1/</loc>
+        <loc>2018/05/08/about-checksum/</loc>
         <lastmod>2018-10-26T01:53:06.721Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
