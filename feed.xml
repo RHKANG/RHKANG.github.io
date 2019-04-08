@@ -6,7 +6,7 @@
   <link href="/feed.xml" rel="self"/>
   
   <link href="/"/>
-  <updated>2019-04-08T12:48:26.371Z</updated>
+  <updated>2019-04-08T12:52:07.918Z</updated>
   <id>/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="/2019/04/08/general-purpose-registers/"/>
     <id>/2019/04/08/general-purpose-registers/</id>
     <published>2019-04-08T11:48:46.000Z</published>
-    <updated>2019-04-08T12:48:26.371Z</updated>
+    <updated>2019-04-08T12:52:07.918Z</updated>
     
-    <content type="html"><![CDATA[<p>레지스터(Register)란? - <a href="https://en.wikipedia.org/wiki/Processor_register" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/Processor_register</a><br>x86 레지스터 - <a href="https://en.wikipedia.org/wiki/X86#x86_registers" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/X86#x86_registers</a></p><p><img src="https://upload.wikimedia.org/wikipedia/commons/1/15/Table_of_x86_Registers_svg.svg" alt="x86 Registers - Wikipedia"></p><hr><ul><li><strong>EAX (Extended Accumulator Register)</strong><br><br></li><li><strong>EBX (Extended Base Register)</strong><br><br></li><li><strong>ECX (Extended Counter Register)</strong><br><br></li><li><strong>EDX (Extended Data Register)</strong><br><br></li><li><strong>ESI (Extended Source Index)</strong><br><br></li><li><strong>EDI (Extended Destination Index)</strong><br><br></li><li><strong>ESP (Extended Stack Pointer)</strong><br><br></li><li><strong>EBP (Extended Base Pointer)</strong></li></ul><hr><p><strong>Caller (콜러) :</strong> Caller saves temporary in its frame before calling<br><strong>Callee (콜리) :</strong> Callee saves temporary in its frame before using</p><p>범용 레지스터들은 Caller-save 혹은 Callee-save 여부를 통해 구분이 가능하다.</p><p>%EAX, %EDX, %ECX는 Caller-save,<br>%EBX, %ESI, %EDI는 Callee-save로서 관리된다.<br>%ESP, %EBP는 각각 Stack Pointer, Frame Pointer로서의 특별한 역할을 지닌다.</p>]]></content>
+    <content type="html"><![CDATA[<p>레지스터(Register)란? - <a href="https://en.wikipedia.org/wiki/Processor_register" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/Processor_register</a><br>x86 레지스터 - <a href="https://en.wikipedia.org/wiki/X86#x86_registers" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/X86#x86_registers</a></p><p><img src="https://upload.wikimedia.org/wikipedia/commons/1/15/Table_of_x86_Registers_svg.svg" alt="x86 Registers - Wikipedia"></p><hr><ul><li><strong>EAX (Extended Accumulator Register)</strong><br><br></li><li><strong>EBX (Extended Base Register)</strong><br><br></li><li><strong>ECX (Extended Counter Register)</strong><br><br></li><li><strong>EDX (Extended Data Register)</strong><br><br></li><li><strong>ESI (Extended Source Index)</strong><br><br></li><li><strong>EDI (Extended Destination Index)</strong><br><br></li><li><strong>ESP (Extended Stack Pointer)</strong><br><br></li><li><strong>EBP (Extended Base Pointer)</strong></li></ul><hr><p><strong>Caller (콜러) :</strong> Caller saves temporary in its frame before calling<br><strong>Callee (콜리) :</strong> Callee saves temporary in its frame before using</p><p>범용 레지스터들은 Caller-save 혹은 Callee-save 여부를 통해 구분이 가능하다.</p><p>%EAX, %EDX, %ECX는 Caller-save,<br>%EBX, %ESI, %EDI는 Callee-save로서 관리된다.<br>%ESP, %EBP는 각각 Stack Pointer, Frame Pointer로서의 특별한 역할을 지닌다.<br>%EAX는 함수의 Return 값을 저장하기도 한다.</p>]]></content>
     
     <summary type="html">
     
