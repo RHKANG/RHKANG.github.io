@@ -18,24 +18,26 @@ ga('send', 'pageview');
 
 
   
-  <link rel="canonical" href="/categories/it/"/>
+  <link rel="canonical" href="/2019/04/08/general-purpose-registers/"/>
 
-  <title>Category: IT - KANG ARCHIVE</title>
+  <title>General-Purpose Registers (범용 레지스터) - KANG ARCHIVE</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
   
 
-  <meta name="description" content="강래현 전용 저장소">
-<meta property="og:type" content="website">
-<meta property="og:title" content="undefined - KANG ARCHIVE">
-<meta property="og:url" content="/categories/IT/index.html">
+  <meta name="description" content="레지스터(Register)란? - https://en.wikipedia.org/wiki/Processor_registerx86 레지스터 - https://en.wikipedia.org/wiki/X86#x86_registers    EAX (Extended Accumulator Register) EBX (Extended Base Register) ECX (E">
+<meta name="keywords" content="IT, Register, SP">
+<meta property="og:type" content="article">
+<meta property="og:title" content="General-Purpose Registers (범용 레지스터) - KANG ARCHIVE">
+<meta property="og:url" content="/2019/04/08/general-purpose-registers/index.html">
 <meta property="og:site_name" content="KANG ARCHIVE">
-<meta property="og:description" content="강래현 전용 저장소">
+<meta property="og:description" content="레지스터(Register)란? - https://en.wikipedia.org/wiki/Processor_registerx86 레지스터 - https://en.wikipedia.org/wiki/X86#x86_registers    EAX (Extended Accumulator Register) EBX (Extended Base Register) ECX (E">
 <meta property="og:locale" content="en">
 <meta property="og:image" content="https://rhkang.github.io/css/images/og-image.png">
+<meta property="og:updated_time" content="2019-04-08T12:44:43.135Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="undefined - KANG ARCHIVE">
-<meta name="twitter:description" content="강래현 전용 저장소">
+<meta name="twitter:title" content="General-Purpose Registers (범용 레지스터) - KANG ARCHIVE">
+<meta name="twitter:description" content="레지스터(Register)란? - https://en.wikipedia.org/wiki/Processor_registerx86 레지스터 - https://en.wikipedia.org/wiki/X86#x86_registers    EAX (Extended Accumulator Register) EBX (Extended Base Register) ECX (E">
 <meta name="twitter:image" content="https://rhkang.github.io/css/images/og-image.png">
 
   
@@ -86,163 +88,75 @@ ga('send', 'pageview');
   </div>
 </header>
       <div class="outer">
-        <section id="main">
-  
-  
-    
-    
-      
-      
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/archives/2019" class="archive-year">2019</a>
-        </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      <a href="/2019/04/08/general-purpose-registers/" class="archive-article-date">
-  <time datetime="2019-04-08T11:48:46.000Z" itemprop="datePublished">Apr 8</time>
+        <section id="main"><article id="post-general-purpose-registers" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2019/04/08/general-purpose-registers/" class="article-date">
+  <time datetime="2019-04-08T11:48:46.000Z" itemprop="datePublished">2019-04-08</time>
 </a>
-      
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/IT/">IT</a>►<a class="article-category-link" href="/categories/IT/System/">System</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2019/04/08/general-purpose-registers/">General-Purpose Registers (범용 레지스터)</a>
+    <h1 class="article-title" itemprop="name">
+      General-Purpose Registers (범용 레지스터)
     </h1>
   
 
-    </header>
-  </div>
-</article>
-  
+      </header>
     
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      <a href="/2019/03/04/about-java/" class="archive-article-date">
-  <time datetime="2019-03-04T06:23:52.000Z" itemprop="datePublished">Mar 4</time>
-</a>
+    <div class="article-entry" itemprop="articleBody">
       
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2019/03/04/about-java/">Java 이모저모</a>
-    </h1>
-  
+        <p>레지스터(Register)란? - <a href="https://en.wikipedia.org/wiki/Processor_register" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/Processor_register</a><br>x86 레지스터 - <a href="https://en.wikipedia.org/wiki/X86#x86_registers" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/X86#x86_registers</a></p>
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/1/15/Table_of_x86_Registers_svg.svg" alt="x86 Registers - Wikipedia"></p>
+<hr>
+<ul>
+<li><strong>EAX (Extended Accumulator Register)</strong><br><br></li>
+<li><strong>EBX (Extended Base Register)</strong><br><br></li>
+<li><strong>ECX (Extended Counter Register)</strong><br><br></li>
+<li><strong>EDX (Extended Data Register)</strong><br><br></li>
+<li><strong>ESI (Extended Source Index)</strong><br><br></li>
+<li><strong>EDI (Extended Destination Index)</strong><br><br></li>
+<li><strong>ESP (Extended Stack Pointer)</strong><br><br></li>
+<li><strong>EBP (Extended Base Pointer)</strong></li>
+</ul>
+<hr>
+<p><strong>Caller (콜러) :</strong> Caller saves temporary in its frame before calling<br><strong>Callee (콜리) :</strong> Callee saves temporary in its frame before using</p>
+<p>범용 레지스터들은 Caller-save 혹은 Callee-save 여부를 통해 구분이 가능하다.</p>
+<p>%EAX, %EDX, %ECX는 Caller-save,<br>%EBX, %ESI, %EDI는 Callee-save로서 관리된다.<br>%ESP, %EBP는 각각 Stack Pointer, Frame Pointer로서의 특별한 역할을 지닌다.</p>
 
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      <a href="/2019/03/03/about-c/" class="archive-article-date">
-  <time datetime="2019-03-03T10:15:10.000Z" itemprop="datePublished">Mar 3</time>
-</a>
       
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2019/03/03/about-c/">C언어 이모저모</a>
-    </h1>
-  
+    </div>
+    <footer class="article-footer">
+      <a data-url="/2019/04/08/general-purpose-registers/" data-id="cju8clsmi0006qgv1u6h0m6zn" class="article-share-link">Share</a>
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/IT-Register-SP/">IT, Register, SP</a></li></ul>
 
-    </header>
+    </footer>
   </div>
-</article>
   
     
-    
-      
-        </div></section>
-      
-      
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/archives/2018" class="archive-year">2018</a>
-        </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      <a href="/2018/05/12/latex-guide/" class="archive-article-date">
-  <time datetime="2018-05-12T00:04:43.000Z" itemprop="datePublished">May 12</time>
-</a>
-      
+<nav id="article-nav">
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2018/05/12/latex-guide/">Latex Guide</a>
-    </h1>
   
+    <a href="/2019/03/04/about-java/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">Java 이모저모</div>
+    </a>
+  
+</nav>
 
-    </header>
-  </div>
+  
 </article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      <a href="/2018/05/11/basic-algorithms/" class="archive-article-date">
-  <time datetime="2018-05-11T11:47:33.000Z" itemprop="datePublished">May 11</time>
-</a>
-      
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2018/05/11/basic-algorithms/">범용 알고리즘 정리</a>
-    </h1>
-  
 
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      <a href="/2018/05/09/hexo-information/" class="archive-article-date">
-  <time datetime="2018-05-09T04:09:20.000Z" itemprop="datePublished">May 9</time>
-</a>
-      
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2018/05/09/hexo-information/">[Hexo] 자주 쓰는 커맨드 &amp; 알아두면 좋은 정보 모음(集)</a>
-    </h1>
-  
-
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      <a href="/2018/05/08/about-checksum/" class="archive-article-date">
-  <time datetime="2018-05-08T04:53:33.000Z" itemprop="datePublished">May 8</time>
-</a>
-      
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2018/05/08/about-checksum/">네트워크 통신에서의 데이터 무결성 검사</a>
-    </h1>
-  
-
-    </header>
-  </div>
-</article>
-  
-  
-    </div></section>
-  
 
 
 </section>
