@@ -3,22 +3,22 @@
 
 
     <sitemap>
-        <loc>post-sitemap.xml</loc>
+        <loc>https://rhkang.github.io/post-sitemap.xml</loc>
         <lastmod>2019-04-08T12:52:07.918Z</lastmod>
     </sitemap>
 
     <sitemap>
-        <loc>page-sitemap.xml</loc>
+        <loc>https://rhkang.github.io/page-sitemap.xml</loc>
         <lastmod>2019-04-08T07:07:33.425Z</lastmod>
     </sitemap>
 
     <sitemap>
-        <loc>category-sitemap.xml</loc>
+        <loc>https://rhkang.github.io/category-sitemap.xml</loc>
         <lastmod>2019-03-04T07:07:23.503Z</lastmod>
     </sitemap>
 
     <sitemap>
-        <loc>tag-sitemap.xml</loc>
+        <loc>https://rhkang.github.io/tag-sitemap.xml</loc>
         <lastmod>2019-03-03T10:24:38.599Z</lastmod>
     </sitemap>
 

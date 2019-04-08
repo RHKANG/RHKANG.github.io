@@ -2,13 +2,13 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
     <url>
-        <loc></loc>
+        <loc>https://rhkang.github.io</loc>
         <changefreq>daily</changefreq>
         <priority>1</priority>
     </url>
 
     <url>
-        <loc>2019/04/08/general-purpose-registers/</loc>
+        <loc>https://rhkang.github.io/2019/04/08/general-purpose-registers/</loc>
         <lastmod>2019-04-08T12:52:07.918Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -16,7 +16,7 @@
     </url>
 
     <url>
-        <loc>2018/05/12/latex-guide/</loc>
+        <loc>https://rhkang.github.io/2018/05/12/latex-guide/</loc>
         <lastmod>2019-04-08T06:13:04.578Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -24,7 +24,7 @@
     </url>
 
     <url>
-        <loc>2018/05/11/basic-algorithms/</loc>
+        <loc>https://rhkang.github.io/2018/05/11/basic-algorithms/</loc>
         <lastmod>2019-03-06T04:13:10.102Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -32,7 +32,7 @@
     </url>
 
     <url>
-        <loc>2019/03/04/about-java/</loc>
+        <loc>https://rhkang.github.io/2019/03/04/about-java/</loc>
         <lastmod>2019-03-04T07:07:28.659Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -40,7 +40,7 @@
     </url>
 
     <url>
-        <loc>2019/03/03/about-c/</loc>
+        <loc>https://rhkang.github.io/2019/03/03/about-c/</loc>
         <lastmod>2019-03-04T07:07:23.503Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -48,7 +48,7 @@
     </url>
 
     <url>
-        <loc>2018/05/09/hexo-information/</loc>
+        <loc>https://rhkang.github.io/2018/05/09/hexo-information/</loc>
         <lastmod>2019-03-03T10:24:38.599Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -56,7 +56,7 @@
     </url>
 
     <url>
-        <loc>2018/05/08/about-checksum/</loc>
+        <loc>https://rhkang.github.io/2018/05/08/about-checksum/</loc>
         <lastmod>2018-10-26T01:53:06.721Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>

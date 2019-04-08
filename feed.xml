@@ -5,9 +5,9 @@
   
   <link href="/feed.xml" rel="self"/>
   
-  <link href="/"/>
+  <link href="https://rhkang.github.io/"/>
   <updated>2019-04-08T12:52:07.918Z</updated>
-  <id>/</id>
+  <id>https://rhkang.github.io/</id>
   
   <author>
     <name>R.H.Kang</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>General-Purpose Registers (범용 레지스터)</title>
-    <link href="/2019/04/08/general-purpose-registers/"/>
-    <id>/2019/04/08/general-purpose-registers/</id>
+    <link href="https://rhkang.github.io/2019/04/08/general-purpose-registers/"/>
+    <id>https://rhkang.github.io/2019/04/08/general-purpose-registers/</id>
     <published>2019-04-08T11:48:46.000Z</published>
     <updated>2019-04-08T12:52:07.918Z</updated>
     
@@ -34,19 +34,19 @@
     
     </summary>
     
-      <category term="IT" scheme="/categories/IT/"/>
+      <category term="IT" scheme="https://rhkang.github.io/categories/IT/"/>
     
-      <category term="System" scheme="/categories/IT/System/"/>
+      <category term="System" scheme="https://rhkang.github.io/categories/IT/System/"/>
     
     
-      <category term="SP" scheme="/tags/SP/"/>
+      <category term="SP" scheme="https://rhkang.github.io/tags/SP/"/>
     
   </entry>
   
   <entry>
     <title>Java 이모저모</title>
-    <link href="/2019/03/04/about-java/"/>
-    <id>/2019/03/04/about-java/</id>
+    <link href="https://rhkang.github.io/2019/03/04/about-java/"/>
+    <id>https://rhkang.github.io/2019/03/04/about-java/</id>
     <published>2019-03-04T06:23:52.000Z</published>
     <updated>2019-03-04T07:07:28.659Z</updated>
     
@@ -61,19 +61,19 @@
     
     </summary>
     
-      <category term="IT" scheme="/categories/IT/"/>
+      <category term="IT" scheme="https://rhkang.github.io/categories/IT/"/>
     
-      <category term="Java" scheme="/categories/IT/Java/"/>
+      <category term="Java" scheme="https://rhkang.github.io/categories/IT/Java/"/>
     
     
-      <category term="java" scheme="/tags/java/"/>
+      <category term="java" scheme="https://rhkang.github.io/tags/java/"/>
     
   </entry>
   
   <entry>
     <title>C언어 이모저모</title>
-    <link href="/2019/03/03/about-c/"/>
-    <id>/2019/03/03/about-c/</id>
+    <link href="https://rhkang.github.io/2019/03/03/about-c/"/>
+    <id>https://rhkang.github.io/2019/03/03/about-c/</id>
     <published>2019-03-03T10:15:10.000Z</published>
     <updated>2019-03-04T07:07:23.503Z</updated>
     
@@ -88,19 +88,19 @@
     
     </summary>
     
-      <category term="IT" scheme="/categories/IT/"/>
+      <category term="IT" scheme="https://rhkang.github.io/categories/IT/"/>
     
-      <category term="C" scheme="/categories/IT/C/"/>
+      <category term="C" scheme="https://rhkang.github.io/categories/IT/C/"/>
     
     
-      <category term="C" scheme="/tags/C/"/>
+      <category term="C" scheme="https://rhkang.github.io/tags/C/"/>
     
   </entry>
   
   <entry>
     <title>Latex Guide</title>
-    <link href="/2018/05/12/latex-guide/"/>
-    <id>/2018/05/12/latex-guide/</id>
+    <link href="https://rhkang.github.io/2018/05/12/latex-guide/"/>
+    <id>https://rhkang.github.io/2018/05/12/latex-guide/</id>
     <published>2018-05-12T00:04:43.000Z</published>
     <updated>2019-04-08T06:13:04.578Z</updated>
     
@@ -117,17 +117,17 @@
     
     </summary>
     
-      <category term="IT" scheme="/categories/IT/"/>
+      <category term="IT" scheme="https://rhkang.github.io/categories/IT/"/>
     
     
-      <category term="Latex" scheme="/tags/Latex/"/>
+      <category term="Latex" scheme="https://rhkang.github.io/tags/Latex/"/>
     
   </entry>
   
   <entry>
     <title>범용 알고리즘 정리</title>
-    <link href="/2018/05/11/basic-algorithms/"/>
-    <id>/2018/05/11/basic-algorithms/</id>
+    <link href="https://rhkang.github.io/2018/05/11/basic-algorithms/"/>
+    <id>https://rhkang.github.io/2018/05/11/basic-algorithms/</id>
     <published>2018-05-11T11:47:33.000Z</published>
     <updated>2019-03-06T04:13:10.102Z</updated>
     
@@ -142,21 +142,21 @@
     
     </summary>
     
-      <category term="IT" scheme="/categories/IT/"/>
+      <category term="IT" scheme="https://rhkang.github.io/categories/IT/"/>
     
-      <category term="Algorithm" scheme="/categories/IT/Algorithm/"/>
+      <category term="Algorithm" scheme="https://rhkang.github.io/categories/IT/Algorithm/"/>
     
     
-      <category term="Data Structure" scheme="/tags/Data-Structure/"/>
+      <category term="Data Structure" scheme="https://rhkang.github.io/tags/Data-Structure/"/>
     
-      <category term="Algorithm" scheme="/tags/Algorithm/"/>
+      <category term="Algorithm" scheme="https://rhkang.github.io/tags/Algorithm/"/>
     
   </entry>
   
   <entry>
     <title>[Hexo] 자주 쓰는 커맨드 &amp; 알아두면 좋은 정보 모음(集)</title>
-    <link href="/2018/05/09/hexo-information/"/>
-    <id>/2018/05/09/hexo-information/</id>
+    <link href="https://rhkang.github.io/2018/05/09/hexo-information/"/>
+    <id>https://rhkang.github.io/2018/05/09/hexo-information/</id>
     <published>2018-05-09T04:09:20.000Z</published>
     <updated>2019-03-03T10:24:38.599Z</updated>
     
@@ -171,19 +171,19 @@
     
     </summary>
     
-      <category term="IT" scheme="/categories/IT/"/>
+      <category term="IT" scheme="https://rhkang.github.io/categories/IT/"/>
     
     
-      <category term="Hexo" scheme="/tags/Hexo/"/>
+      <category term="Hexo" scheme="https://rhkang.github.io/tags/Hexo/"/>
     
-      <category term="Markdown" scheme="/tags/Markdown/"/>
+      <category term="Markdown" scheme="https://rhkang.github.io/tags/Markdown/"/>
     
   </entry>
   
   <entry>
     <title>네트워크 통신에서의 데이터 무결성 검사</title>
-    <link href="/2018/05/08/about-checksum/"/>
-    <id>/2018/05/08/about-checksum/</id>
+    <link href="https://rhkang.github.io/2018/05/08/about-checksum/"/>
+    <id>https://rhkang.github.io/2018/05/08/about-checksum/</id>
     <published>2018-05-08T04:53:33.000Z</published>
     <updated>2018-10-26T01:53:06.721Z</updated>
     
@@ -200,7 +200,7 @@
     
     </summary>
     
-      <category term="IT" scheme="/categories/IT/"/>
+      <category term="IT" scheme="https://rhkang.github.io/categories/IT/"/>
     
     
   </entry>
