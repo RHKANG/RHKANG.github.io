@@ -8,8 +8,16 @@
     </url>
 
     <url>
+        <loc>https://rhkang.github.io/2019/04/11/IA32-programming/</loc>
+        <lastmod>2019-04-11T10:04:03.550Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://rhkang.github.io/2019/04/08/general-purpose-registers/</loc>
-        <lastmod>2019-04-09T00:47:28.135Z</lastmod>
+        <lastmod>2019-04-11T07:36:37.648Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 

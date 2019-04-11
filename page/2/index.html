@@ -88,6 +88,58 @@ ga('send', 'pageview');
       <div class="outer">
         <section id="main">
   
+    <article id="post-basic-algorithms" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2018/05/11/basic-algorithms/" class="article-date">
+  <time datetime="2018-05-11T11:47:33.000Z" itemprop="datePublished">2018-05-11</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/IT/">IT</a>►<a class="article-category-link" href="/categories/IT/Algorithm/">Algorithm</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2018/05/11/basic-algorithms/">범용 알고리즘 정리</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h3 id="Latest-Update-2018-05-11"><a href="#Latest-Update-2018-05-11" class="headerlink" title="Latest Update: 2018.05.11"></a>Latest Update: 2018.05.11</h3><hr>
+<h4 id="Stack"><a href="#Stack" class="headerlink" title="Stack"></a>Stack</h4><ul>
+<li>Python<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Node</span><span class="params">(object)</span>:</span></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">__init__</span><span class="params">(self, data)</span>:</span></span><br><span class="line">        self.d = data</span><br><span class="line">        self.prev = <span class="keyword">None</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Stack</span><span class="params">(object)</span>:</span></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">__init__</span><span class="params">(self)</span>:</span></span><br><span class="line">        self._t = <span class="keyword">None</span></span><br><span class="line">        self._l = <span class="number">0</span></span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">push</span><span class="params">(self, n)</span>:</span>     <span class="comment"># n: Node Object</span></span><br><span class="line">        <span class="keyword">if</span> self._l == <span class="number">0</span>:</span><br><span class="line">            n.prev = <span class="keyword">None</span></span><br><span class="line">        <span class="keyword">else</span>:</span><br><span class="line">            n.prev = self._t</span><br><span class="line"></span><br><span class="line">        self._t = n</span><br><span class="line">        self._l += <span class="number">1</span></span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">pop</span><span class="params">(self)</span>:</span></span><br><span class="line">        <span class="keyword">if</span> self._l == <span class="number">0</span>:</span><br><span class="line">            <span class="keyword">return</span> <span class="keyword">None</span></span><br><span class="line"></span><br><span class="line">        <span class="keyword">else</span>:</span><br><span class="line">            tail = self._t</span><br><span class="line"></span><br><span class="line">            self._t = self._t.prev</span><br><span class="line">            self._l -= <span class="number">1</span></span><br><span class="line"></span><br><span class="line">            <span class="keyword">return</span> tail</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">length</span><span class="params">(self)</span>:</span></span><br><span class="line">        <span class="keyword">print</span> (self._l)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> __name__ == <span class="string">"__main__"</span>:</span><br><span class="line">    <span class="keyword">import</span> random</span><br><span class="line"></span><br><span class="line">    stack = Stack()</span><br><span class="line"></span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> range(<span class="number">10</span>):</span><br><span class="line">        num = random.randint(<span class="number">0</span>, <span class="number">9</span>) + <span class="number">1</span></span><br><span class="line">        <span class="keyword">print</span> (num, end=<span class="string">' '</span>)</span><br><span class="line">        n = Node(num)</span><br><span class="line">        stack.push(n)</span><br><span class="line"></span><br><span class="line">    <span class="keyword">print</span> (<span class="string">"length: "</span>, stack.length())</span><br><span class="line"></span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> range(<span class="number">10</span>):</span><br><span class="line">        <span class="keyword">print</span> (i+<span class="number">1</span>, <span class="string">":"</span>,  stack.pop().d)</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+<h4 id="Queue"><a href="#Queue" class="headerlink" title="Queue"></a>Queue</h4><ul>
+<li>Python<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Node</span><span class="params">(object)</span>:</span></span><br><span class="line">      <span class="function"><span class="keyword">def</span> <span class="title">__init__</span><span class="params">(self, data)</span>:</span></span><br><span class="line">          self.d = data</span><br><span class="line">          self.next = <span class="keyword">None</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">  <span class="class"><span class="keyword">class</span> <span class="title">Queue</span><span class="params">(object)</span>:</span></span><br><span class="line">      <span class="function"><span class="keyword">def</span> <span class="title">__init__</span><span class="params">(self)</span>:</span></span><br><span class="line">          self._h = <span class="keyword">None</span></span><br><span class="line">          self._t = <span class="keyword">None</span></span><br><span class="line">          self._l = <span class="number">0</span></span><br><span class="line"></span><br><span class="line">      <span class="function"><span class="keyword">def</span> <span class="title">enqueue</span><span class="params">(self, n)</span>:</span>     <span class="comment"># n: Node Object</span></span><br><span class="line">          <span class="keyword">if</span> self._l == <span class="number">0</span>:</span><br><span class="line">              self._h = n</span><br><span class="line">          <span class="keyword">else</span>:</span><br><span class="line">              self._t.next = n</span><br><span class="line"></span><br><span class="line">          self._t = n</span><br><span class="line">          self._l += <span class="number">1</span></span><br><span class="line"></span><br><span class="line">      <span class="function"><span class="keyword">def</span> <span class="title">dequeue</span><span class="params">(self)</span>:</span></span><br><span class="line">          <span class="keyword">if</span> self._l == <span class="number">0</span>:</span><br><span class="line">              <span class="keyword">print</span> (<span class="string">"Empty"</span>)</span><br><span class="line"></span><br><span class="line">          <span class="keyword">else</span>:</span><br><span class="line">              head = self._h</span><br><span class="line"></span><br><span class="line">              <span class="keyword">if</span> self._l == <span class="number">1</span>:</span><br><span class="line">                  self._t = <span class="keyword">None</span></span><br><span class="line"></span><br><span class="line">              self._h = self._h.next</span><br><span class="line">              self._l -= <span class="number">1</span></span><br><span class="line"></span><br><span class="line">              <span class="keyword">return</span> head</span><br><span class="line"></span><br><span class="line">      <span class="function"><span class="keyword">def</span> <span class="title">length</span><span class="params">(self)</span>:</span></span><br><span class="line">          <span class="keyword">print</span> (self._l)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">  <span class="keyword">if</span> __name__ == <span class="string">"__main__"</span>:</span><br><span class="line">      <span class="keyword">import</span> random</span><br><span class="line"></span><br><span class="line">      queue = Queue()</span><br><span class="line"></span><br><span class="line">      <span class="keyword">for</span> i <span class="keyword">in</span> range(<span class="number">10</span>):</span><br><span class="line">          num = random.randint(<span class="number">0</span>, <span class="number">9</span>) + <span class="number">1</span></span><br><span class="line">          print(num, end=<span class="string">' '</span>)</span><br><span class="line">          n = Node(num)</span><br><span class="line">          queue.enqueue(n)</span><br><span class="line"></span><br><span class="line">      <span class="keyword">print</span> (<span class="string">"length: "</span>, queue.length())</span><br><span class="line"></span><br><span class="line">      <span class="keyword">for</span> i <span class="keyword">in</span> range(<span class="number">10</span>):</span><br><span class="line">          <span class="keyword">print</span> (i+<span class="number">1</span>, <span class="string">":"</span>, queue.dequeue().d)</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://rhkang.github.io/2018/05/11/basic-algorithms/" data-id="cjuch7uwp0010vcv15et47eyi" class="article-share-link">Share</a>
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Algorithm/">Algorithm</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Data-Structure/">Data Structure</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
     <article id="post-hexo-information" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/2018/05/09/hexo-information/" class="article-date">
@@ -149,7 +201,7 @@ ga('send', 'pageview');
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://rhkang.github.io/2018/05/09/hexo-information/" data-id="cju933kh8000bzov1q0enmjq3" class="article-share-link">Share</a>
+      <a data-url="https://rhkang.github.io/2018/05/09/hexo-information/" data-id="cjuch7uws0011vcv1hvlij7zm" class="article-share-link">Share</a>
       
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Hexo/">Hexo</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Markdown/">Markdown</a></li></ul>
@@ -308,7 +360,7 @@ ga('send', 'pageview');
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://rhkang.github.io/2018/05/08/about-checksum/" data-id="cju933kgl0002zov1dgi7bk1m" class="article-share-link">Share</a>
+      <a data-url="https://rhkang.github.io/2018/05/08/about-checksum/" data-id="cjuch7uv70002vcv143cmod1q" class="article-share-link">Share</a>
       
       
     </footer>
@@ -344,7 +396,7 @@ ga('send', 'pageview');
   <div class="widget-wrap">
     <h3 class="widget-title">Archives</h3>
     <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/04/">April 2019</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/03/">March 2019</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/05/">May 2018</a><span class="archive-list-count">4</span></li></ul>
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/04/">April 2019</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/03/">March 2019</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/05/">May 2018</a><span class="archive-list-count">4</span></li></ul>
     </div>
   </div>
 
