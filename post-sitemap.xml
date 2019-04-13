@@ -8,6 +8,14 @@
     </url>
 
     <url>
+        <loc>https://rhkang.github.io/2018/05/12/latex-guide/</loc>
+        <lastmod>2019-04-13T05:53:09.707Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://rhkang.github.io/2019/04/11/IA32-programming/</loc>
         <lastmod>2019-04-11T10:25:24.902Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -18,14 +26,6 @@
     <url>
         <loc>https://rhkang.github.io/2019/04/08/general-purpose-registers/</loc>
         <lastmod>2019-04-11T07:36:37.648Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://rhkang.github.io/2018/05/12/latex-guide/</loc>
-        <lastmod>2019-04-08T06:13:04.578Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
