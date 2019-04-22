@@ -8,6 +8,14 @@
     </url>
 
     <url>
+        <loc>https://rhkang.github.io/2018/05/09/hexo-information/</loc>
+        <lastmod>2019-04-22T10:41:14.217Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://rhkang.github.io/2018/05/12/latex-guide/</loc>
         <lastmod>2019-04-13T05:53:09.707Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -50,14 +58,6 @@
     <url>
         <loc>https://rhkang.github.io/2019/03/03/about-c/</loc>
         <lastmod>2019-03-04T07:07:23.503Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://rhkang.github.io/2018/05/09/hexo-information/</loc>
-        <lastmod>2019-03-03T10:24:38.599Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
