@@ -3,13 +3,6 @@
 
 
     <url>
-        <loc>https://rhkang.github.io/tags/C/</loc>
-        <lastmod>2019-03-04T07:07:23.503Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>https://rhkang.github.io/tags/java/</loc>
         <lastmod>2019-03-04T07:07:28.659Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -60,7 +53,14 @@
 
     <url>
         <loc>https://rhkang.github.io/tags/C/</loc>
-        <lastmod>2019-05-15T02:14:22.145Z</lastmod>
+        <lastmod>2019-05-15T02:15:09.700Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://rhkang.github.io/tags/C/</loc>
+        <lastmod>2019-05-15T02:15:14.196Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>

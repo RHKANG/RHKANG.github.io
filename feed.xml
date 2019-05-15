@@ -6,7 +6,7 @@
   <link href="/feed.xml" rel="self"/>
   
   <link href="https://rhkang.github.io/"/>
-  <updated>2019-05-15T02:14:22.145Z</updated>
+  <updated>2019-05-15T02:15:09.700Z</updated>
   <id>https://rhkang.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://rhkang.github.io/2019/05/15/programming-with-cpp/"/>
     <id>https://rhkang.github.io/2019/05/15/programming-with-cpp/</id>
     <published>2019-05-15T02:06:17.000Z</published>
-    <updated>2019-05-15T02:14:22.145Z</updated>
+    <updated>2019-05-15T02:15:09.700Z</updated>
     
     <content type="html"><![CDATA[<h4 id="Struct"><a href="#Struct" class="headerlink" title="Struct"></a>Struct</h4><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">struct</span> <span class="title">obj</span>&#123;</span></span><br><span class="line">  <span class="keyword">int</span> mem1;</span><br><span class="line">  <span class="keyword">char</span>[<span class="number">3</span>] mem2;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">  <span class="class"><span class="keyword">struct</span> <span class="title">obj1</span> = &#123;</span><span class="number">2</span>, &#123;<span class="string">'a'</span>, <span class="string">'b'</span>, <span class="string">'+'</span>&#125;&#125;;</span><br><span class="line">  <span class="built_in">cout</span> &lt;&lt; <span class="keyword">sizeof</span>(obj1) &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line"></span><br><span class="line">  <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
     
@@ -36,7 +36,7 @@
     
       <category term="IT" scheme="https://rhkang.github.io/categories/IT/"/>
     
-      <category term="C++" scheme="https://rhkang.github.io/categories/IT/C/"/>
+      <category term="C/C++" scheme="https://rhkang.github.io/categories/IT/C-C/"/>
     
     
       <category term="C++" scheme="https://rhkang.github.io/tags/C/"/>
@@ -130,7 +130,7 @@
     <link href="https://rhkang.github.io/2019/03/03/about-c/"/>
     <id>https://rhkang.github.io/2019/03/03/about-c/</id>
     <published>2019-03-03T10:15:10.000Z</published>
-    <updated>2019-03-04T07:07:23.503Z</updated>
+    <updated>2019-05-15T02:15:14.196Z</updated>
     
     <content type="html"><![CDATA[<h4 id="How-do-you-allow-spaces-to-be-entered-using-scanf"><a href="#How-do-you-allow-spaces-to-be-entered-using-scanf" class="headerlink" title="How do you allow spaces to be entered using scanf?"></a>How do you allow spaces to be entered using scanf?</h4><p><a href="https://stackoverflow.com/questions/1247989/how-do-you-allow-spaces-to-be-entered-using-scanf" target="_blank" rel="noopener">https://stackoverflow.com/questions/1247989/how-do-you-allow-spaces-to-be-entered-using-scanf</a></p><h4 id="What-int-argC-char-argV-mean"><a href="#What-int-argC-char-argV-mean" class="headerlink" title="What int argC, char *argV[] mean?"></a>What int argC, char *argV[] mean?</h4><p><a href="https://stackoverflow.com/questions/3024197/what-does-int-argc-char-argv-mean" target="_blank" rel="noopener">https://stackoverflow.com/questions/3024197/what-does-int-argc-char-argv-mean</a></p><h4 id="Ternary-Operator"><a href="#Ternary-Operator" class="headerlink" title="Ternary Operator"></a>Ternary Operator</h4><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">if</span> (x&gt;<span class="number">0</span>)</span><br><span class="line">  y = <span class="number">1</span>;</span><br><span class="line"><span class="keyword">else</span></span><br><span class="line">  y = <span class="number">-1</span>;</span><br><span class="line"></span><br><span class="line"><span class="comment">//is equivalent to</span></span><br><span class="line"></span><br><span class="line">y = (x&gt;<span class="number">0</span>) ? <span class="number">1</span>: <span class="number">-1</span>;</span><br></pre></td></tr></table></figure><h4 id="올림-내림-반올림"><a href="#올림-내림-반올림" class="headerlink" title="올림, 내림, 반올림"></a>올림, 내림, 반올림</h4><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">result = <span class="built_in">ceil</span>(<span class="number">4.2</span>) <span class="comment">//result = 5.0</span></span><br><span class="line">result = <span class="built_in">floor</span>(<span class="number">4.2</span>) <span class="comment">// result = 4.0</span></span><br><span class="line">result = <span class="built_in">floor</span>(<span class="number">4.5</span> + <span class="number">0.5</span>) <span class="comment">// result = 5.0 (반올림 시 안에 0.5더해주고 내리기)</span></span><br></pre></td></tr></table></figure>]]></content>
     
@@ -145,7 +145,7 @@
     
       <category term="IT" scheme="https://rhkang.github.io/categories/IT/"/>
     
-      <category term="C" scheme="https://rhkang.github.io/categories/IT/C/"/>
+      <category term="C/C++" scheme="https://rhkang.github.io/categories/IT/C-C/"/>
     
     
       <category term="C" scheme="https://rhkang.github.io/tags/C/"/>
