@@ -34,7 +34,7 @@ ga('send', 'pageview');
 <meta property="og:description" content="Socket Address Structures12345678910111213// Genericstruct sockaddr &amp;#123;  uint16_t  sa_family;    /* Protocol family */  char      sa_data[14];  /* Address data */&amp;#125;;// Internet Specificstruct s">
 <meta property="og:locale" content="en">
 <meta property="og:image" content="https://rhkang.github.io/css/images/og-image.png">
-<meta property="og:updated_time" content="2019-05-30T16:25:09.079Z">
+<meta property="og:updated_time" content="2019-05-30T16:31:48.213Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Network Programming - KANG ARCHIVE">
 <meta name="twitter:description" content="Socket Address Structures12345678910111213// Genericstruct sockaddr &amp;#123;  uint16_t  sa_family;    /* Protocol family */  char      sa_data[14];  /* Address data */&amp;#125;;// Internet Specificstruct s">
@@ -127,7 +127,7 @@ ga('send', 'pageview');
 <li><strong>Servers</strong> walk the list until call to <em>socket</em> and <em>bind</em> succeed.</li>
 </ul>
 <h4 id="getnameinfo"><a href="#getnameinfo" class="headerlink" title="getnameinfo"></a>getnameinfo</h4><p>Inverse of <em>getaddrinfo</em>, converting a socket address to the corresponding host and service.</p>
-<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">int getnameinfo (const SA *sa, socklen_t salen),  /* In: socket addr*/</span><br><span class="line">                 <span class="keyword">char</span> *host, <span class="keyword">size_t</span> hostlen,      <span class="comment">/* Out: host */</span></span><br><span class="line">                 <span class="keyword">char</span> *serv, <span class="keyword">size_t</span> servlen,      <span class="comment">/* Out: service */</span></span><br><span class="line">                 <span class="keyword">int</span> flags);                      <span class="comment">/* optional flags */</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// &lt;-&gt; getaddrinfo</span></span><br><span class="line">int getnameinfo (const SA *sa, socklen_t salen),  /* In: socket addr*/</span><br><span class="line">                 <span class="keyword">char</span> *host, <span class="keyword">size_t</span> hostlen,      <span class="comment">/* Out: host */</span></span><br><span class="line">                 <span class="keyword">char</span> *serv, <span class="keyword">size_t</span> servlen,      <span class="comment">/* Out: service */</span></span><br><span class="line">                 <span class="keyword">int</span> flags);                      <span class="comment">/* optional flags */</span></span><br></pre></td></tr></table></figure>
 <ul>
 <li><strong>Return Value</strong><br>On success, 0 is returned, and node and service names, if requested, are filled with null-terminated strings, possibly truncated to fit the specified buffer lengths.<br>On error, one of the several nonzero error codes is returned</li>
 </ul>
